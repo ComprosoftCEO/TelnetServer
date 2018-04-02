@@ -6,6 +6,14 @@ Telnet Server written in Java
 ## Compiling and Running
 The Telnet server is designed to run with the [Eclipse IDE](https://www.eclipse.org/). The main method is in the file _ServerControl.java_, which uses a JFrame interface to display the server log.
 
+When running the server, you will probably need to run Java as **Administrator** (Windows) or with **Sudo** (Linux). Compile the source into a runnable .jar file, then run the file using:
+
+_java -jar Telnet.jar_ (for Windows Command Prompt running as Administrator)
+
+or
+
+_sudo java -jar Telnet.jar_ (for the Linux terminal)
+
 <br>
 
 ## Server Properties
