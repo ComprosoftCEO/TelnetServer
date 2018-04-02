@@ -109,6 +109,7 @@ public class ServerControl {
 		scrollPane.setViewportView(ta);
 		
 		JButton btnHide = new JButton("Hide Window*");
+		btnHide.setFont(new Font("Dialog", Font.BOLD, 10));
 		btnHide.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent arg0) {
